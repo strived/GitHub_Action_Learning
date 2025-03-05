@@ -1,11 +1,11 @@
-name: hellow-world
+name: hello-world
 
 on: push
 
 jobs:
-  hellow-world-job:
+  hello-world-job:
     
-    runs-on: ubumtu-latest
+    runs-on: ubuntu-latest
 
     steps:
       -name: check out repository code
